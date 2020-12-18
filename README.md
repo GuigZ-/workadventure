@@ -36,6 +36,14 @@ Note: on some OSes, you will need to add this line to your `/etc/hosts` file:
 workadventure.localhost 127.0.0.1
 ```
 
+### Play with your own map
+
+Copy / clone into `local/src` your map.
+
+Now you can go on http://workadventure.localhost/_/global/map.workadventure.localhost/{jsonFile} 
+
+> Don't forget to replace jsonFile with your own basic json file. (By default: map.json)
+
 ### MacOS developers, your environment with Vagrant
 
 If you are using MacOS, you can increase Docker performance using Vagrant. If you want more explanations, you can read [this medium article](https://medium.com/better-programming/vagrant-to-increase-docker-performance-with-macos-25b354b0c65c).
